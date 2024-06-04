@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5a5a5a;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #333;
+    color: rgb(46, 45, 45);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    background-image: url('pug.jpg'); /* Asegúrate de reemplazar esto con el nombre correcto de la imagen */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px; /* Ajusta este valor según sea necesario */
+}
+
+.header h1 {
+    color: red;
+    font-size: 2.5em;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    color: rgb(66, 118, 179);
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: white;
+    margin: 10px 0;
+}
+
+.nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.button {
+    color: #cac1c1;
+    background-color: rgba(216, 64, 64, 0.103);
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.image-comparison {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.comparison-image {
+    width: 45%; /* Ajusta el ancho para que las imágenes tengan el mismo tamaño */
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: 0 10px; /* Espacio entre las imágenes */
+}
